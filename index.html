@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/captcha.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body class="color">
+    <div class="d-flex d-sm-flex flex-column flex-sm-column align-items-center mt-4">
+        <h1 class="my-5 heading">
+            CAPTCHA VALIDATOR
+        </h1>
+        <div class="captchaBackground d-flex rounded">
+            <canvas class="captcha text-center" id="captcha">captcha text</canvas>
+            <input class="input-box  py-2 rounded  fs-4 border border-dark" id="textBox" type="text">
+            <div class="mt-4">
+                <input class="btn btn-warning btn-lg-3 m-2 fs-3 border border-dark" id="submitButton" type="submit">
+                <button class="btn btn-danger btn-lg-3 m-2 btn-lg fs-3 border border-dark" id="refreshButton"
+                    type="submit">Refresh</button>
+            </div>
+            <span id="output"></span>
+        </div>
+    </div>
+    <script src="./script/captcha.js"></script>
+</body>
+
+</html>
