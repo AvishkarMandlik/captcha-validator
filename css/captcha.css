@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@800&display=swap');
+.color {
+    background-color: #2d3748;
+    font-family: 'Roboto', sans-serif, 'PT Sans' sans-serif, Helvetica sans-serif;
+}
+.heading {
+    color: rgb(246, 243, 219);
+    font-family: 'Sono', sans-serif;
+}
+.captchaBackground {
+    height: 380px;
+    width: 400px;
+    background-color: #fff;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.captcha {
+    letter-spacing: 2px;
+}
+ .refresh{
+    background-color: #f3f3f2;
+}
+.correctCaptcha {
+    color: #7FFF00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.incorrectCaptcha {
+    color: #FF0000;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media screen and (max-width:420px) {
+    .captchaBackground {
+        height: 350px;
+        width: 350px;
+    }
+    .correctCaptcha {
+        color: #7FFF00;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .incorrectCaptcha {
+        color: #FF0000;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+}
+@media screen and (max-width:370px) {
+    .captchaBackground {
+        height: 340px;
+        width: 320px;
+    }
+    
+    .correctCaptcha {
+        color: #7FFF00;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .incorrectCaptcha {
+        color: #FF0000;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
